@@ -1,0 +1,7 @@
+@media (min-width:901px){
+  .mobile-only{display:none!important}.desktop-only{display:initial!important}
+  .back-btn:not([hidden]){display:grid}
+}
+@media (min-width:901px) and (max-width:1120px){
+  :root{--sidebar-w:250px}.page{width:min(920px,calc(100% - 36px))}.editor-layout{grid-template-columns:minmax(0,1fr) 235px}.editor-canvas{padding-left:22px;padding-right:22px}.editor-paper{padding-left:50px;padding-right:50px}
+}
